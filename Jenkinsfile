@@ -59,7 +59,7 @@ pipeline {
     environment {
         DEPLOY_USER = "ec2-user"
         DEPLOY_HOST = "18.141.194.137"  // Ganti dengan IP instance AWS-mu
-        SSH_CREDENTIALS_ID = "hafizh_shh"  // ID credential SSH di Jenkins
+        SSH_CREDENTIALS_ID = "hafizh_ssh"  // ID credential SSH di Jenkins
         APP_DIR = "/home/ec2-user/app/devops"
         GIT_REPO = "https://github.com/hafizhumar/devops.git"
     }
